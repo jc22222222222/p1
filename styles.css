@@ -110,7 +110,7 @@ footer a{
 .banner{
     background-color: grey;
     height: 30vh;
-    width: 375px;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,7 +147,7 @@ footer a{
     height: 20vh;
     width: 40vw;
     margin: 20px;
-    background-image: url(image/WhatsApp\ Image\ 2024-01-21\ at\ 01.45.28.jpeg);
+    background-image: url(image/WhatsAppImage2024-01-21at01.45.28.jpeg);
     background-repeat: none;
     background-size: 100%;
     background-position-y:center;
@@ -158,7 +158,7 @@ footer a{
     height: 20vh;
     width: 40vw;
     margin: 20px;
-    background-image: url(image/WhatsApp\ Image\ 2024-01-21\ at\ 01.45.27.jpeg);
+    background-image: url(image/WhatsAppImage2024-01-21at\ 01.45.27.jpeg);
     background-repeat: none;
     background-size: 100%;
     background-position-y:center;
