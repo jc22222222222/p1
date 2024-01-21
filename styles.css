@@ -1,0 +1,165 @@
+*{
+    font-family: "anona", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main p{
+    margin: 10px;
+}
+
+
+
+main{
+    flex-grow: 1;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    background-color: #060126;
+    padding: 20px;
+}
+
+.beschrijving{
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    height: 15vh;
+    background-image: url(/image/Artboard\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: 42%;
+}
+
+.groen{
+    background-color: #9CD919;
+    height: 20vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.groen p{
+    font-family: "loos-normal", sans-serif;
+    font-size: 30px;
+}
+
+/* Footer*/
+.logofooter{ 
+    width: 43%;
+    height: 10vh;
+    background-image: url(/image/Artboard\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #060126;
+    margin-top: 30px;
+
+}
+
+footer ul{
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* pagina sixt */
+
+.banner{
+    background-color: grey;
+    height: 30vh;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p{
+    font-family: "loos-normal", sans-serif;
+    font-size: 40px;
+}
+
+.sixt{
+    text-align: center;
+}
+
+.kop{
+    font-family: "loos-normal", sans-serif;
+    font-size: 20px;
+}
+
+.foto{
+    background-color: grey;
+    height: 20vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.app{
+    display: flex;
+}
+
+.appfoto1{
+    background-color: grey;
+    height: 20vh;
+    width: 40vw;
+    margin: 20px;
+    background-image: url(/image/WhatsApp\ Image\ 2024-01-21\ at\ 01.45.28.jpeg);
+    background-repeat: none;
+    background-size: 100%;
+    background-position-y:center;
+}
+
+.appfoto2{
+    background-color: grey;
+    height: 20vh;
+    width: 40vw;
+    margin: 20px;
+    background-image: url(/image/WhatsApp\ Image\ 2024-01-21\ at\ 01.45.27.jpeg);
+    background-repeat: none;
+    background-size: 100%;
+    background-position-y:center;
+}
