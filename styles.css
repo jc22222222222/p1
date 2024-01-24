@@ -142,7 +142,13 @@ nav a{
     background-position: center;
 }
 
-footer{
+footer p{
+    background-color: #060126;
+    color: white;
+    font-size: 10px;
+}
+
+.footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -151,11 +157,11 @@ footer{
 
 }
 
-footer ul{
+.footer ul{
     padding: 10px;
 }
 
-footer a{
+.footer a{
     color: white;
     list-style: none;
     text-decoration: none;
