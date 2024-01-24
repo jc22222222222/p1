@@ -193,7 +193,9 @@ footer a{
 }
 
 .foto{
-    background-color: grey;
+    background-image: url(image/autoopladen.jpeg);
+    background-size: 100%;
+    background-position: center;
     height: 20vh;
     margin-left: 10px;
     margin-right: 10px;
@@ -271,6 +273,12 @@ footer a{
 .ster{
     height: 20px;
     margin-left: 5px;
+}
+
+.p3 a{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
 }
 
 
