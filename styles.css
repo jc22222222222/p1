@@ -51,14 +51,10 @@ nav a{
 }
 
 .logo{
-    height: 15vh;
-    background-image: url(image/Artboard\ 1.svg);
-    background-repeat: no-repeat;
-    background-size: 800px;
-    background-position: 42%;
+    width: 90vw;
 }
 
-.groen1{
+.sixtshareknop{
     height: 20vh;
     border-radius: 15px;
     display: flex;
@@ -75,7 +71,7 @@ nav a{
     background-repeat: no-repeat;
 }
 
-.groen2{
+.mywheelsknop{
     height: 20vh;
     border-radius: 15px;
     display: flex;
@@ -93,7 +89,7 @@ nav a{
     box-shadow: 10px;
 }
 
-.groen3{
+.felyxknop{
     height: 20vh;
     border-radius: 15px;
     display: flex;
@@ -111,21 +107,21 @@ nav a{
 }
 
 
-.groen1 p{
+.sixtshareknop{
     font-family: "loos-normal", sans-serif;
     font-size: 50px;
     color: white;
     
 }
 
-.groen2 p{
+.mywheelsknop{
     font-family: "loos-normal", sans-serif;
     font-size: 50px;
     color: white;
     
 }
 
-.groen3 p{
+.felyxknop{
     font-family: "loos-normal", sans-serif;
     font-size: 50px;
     color: white;
@@ -134,21 +130,18 @@ nav a{
 
 /* Footer*/
 .logofooter{ 
-    width: 43%;
     height: 10vh;
-    background-image: url(image/Artboard\ 1.svg);
-    background-repeat: no-repeat;
-    background-size: 400px;
-    background-position: center;
+    width: 70vw;
 }
 
-footer p{
+.footeronder{
     background-color: #060126;
     color: white;
     font-size: 10px;
+    align-content: flex-end;
 }
 
-.footer{
+.footerboven{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -157,11 +150,12 @@ footer p{
 
 }
 
-.footer ul{
+footer ul{
     padding: 10px;
+    list-style: none;
 }
 
-.footer a{
+footer a{
     color: white;
     list-style: none;
     text-decoration: none;
@@ -199,9 +193,8 @@ footer p{
 }
 
 .foto{
-    background-image: url(image/autoopladen.jpeg);
-    background-size: 100%;
-    background-position: center;
+    object-fit: cover;
+    width: 95%;
     height: 20vh;
     margin-left: 10px;
     margin-right: 10px;
@@ -212,26 +205,12 @@ footer p{
     display: flex;
 }
 
-.appfoto1{
-    background-color: grey;
-    height: 20vh;
-    width: 40vw;
-    margin: 20px;
-    background-image: url(image/WhatsAppImage2024-01-21at01.45.28.jpeg);
-    background-repeat: none;
-    background-size: 100%;
-    background-position-y:center;
-}
 
-.appfoto2{
+.appfoto{
     background-color: grey;
-    height: 20vh;
+    height: 40vh;
     width: 40vw;
     margin: 20px;
-    background-image: url(image/WhatsAppImage2024-01-21at\ 01.45.27.jpeg);
-    background-repeat: none;
-    background-size: 100%;
-    background-position-y:center;
 }
 
 .p2 section{
