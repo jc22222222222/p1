@@ -168,8 +168,9 @@ footer a{
     height: 30vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
+    flex-direction: column;
     background-image: url(image/autosixt.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -180,13 +181,24 @@ footer a{
     font-family: "loos-normal", sans-serif;
     font-size: 50px;
     color: white;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
+
+
 
 .sixt{
     text-align: left;
 }
 
 .kop{
+    font-family: "loos-normal", sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.kopervaring{
+    margin-top: 150px;
     font-family: "loos-normal", sans-serif;
     font-size: 20px;
     margin-left: 10px;
